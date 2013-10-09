@@ -1,0 +1,14 @@
+.resources__resource
+{
+    padding: 5px 15px;
+    font-size: 70%;
+    color: #666;
+}
+
+.resources__resource .link
+{
+    font-size: 150%;
+    font-family: "Times New Roman", serif;
+    line-height: 1;
+    display: block;
+}

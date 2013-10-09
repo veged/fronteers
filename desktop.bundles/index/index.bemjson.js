@@ -39,9 +39,10 @@
                             block: 'resources',
                             content: [
                                 { elem: 'title', content: 'CSS Resources' },
-                                { elem: 'resource', content: '', type: 'Book', source: 'Sm Shop' },
-                                { elem: 'resource', content: '', type: 'Type', source: 'Source' },
-                                { elem: 'resource', content: '', type: 'Type', source: 'Source' }
+                                { elem: 'image', url: '/assets/images/promo.jpg' },
+                                { elem: 'resource', url: '//...', content: 'New Perspectives On Coding', type: 'Book', source: 'Sm Shop' },
+                                { elem: 'resource', url: '//...', content: 'Something else', type: 'Type', source: 'Source' },
+                                { elem: 'resource', url: '//...', content: 'Something else', type: 'Type', source: 'Source' }
                             ]
                         }
                     ]
