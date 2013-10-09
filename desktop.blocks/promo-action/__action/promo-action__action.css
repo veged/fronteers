@@ -1,0 +1,10 @@
+.promo-action__action
+{
+    display: block;
+    width: 100%;
+    font-size: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+}

@@ -46,6 +46,22 @@
                             ]
                         },
                         {
+                            block: 'promo-action',
+                            content: [
+                                { elem: 'title', content: 'Learn From Home Workshop' },
+                                {
+                                    elem: 'text',
+                                    content: 'Can\'t make it...:'
+                                },
+                                {
+                                    block: 'link',
+                                    mix: { block: 'promo-action', elem: 'action' },
+                                    url: '//...',
+                                    content: 'Find Out More'
+                                }
+                            ]
+                        },
+                        {
                             block: 'links',
                             mods: { size: 'small' },
                             content: [
