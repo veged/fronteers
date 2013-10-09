@@ -1,0 +1,14 @@
+.links__link
+{
+    font-size: 70%;
+    color: #000;
+    border-bottom: 1px dashed #666;
+    padding: 15px 0;
+}
+
+.links__link .link
+{
+    font-family: "Times New Roman", serif;
+    font-size: 150%;
+    display: block;
+}

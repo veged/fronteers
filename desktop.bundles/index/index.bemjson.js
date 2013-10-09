@@ -44,6 +44,16 @@
                                 { elem: 'resource', url: '//...', content: 'Something else', type: 'Type', source: 'Source' },
                                 { elem: 'resource', url: '//...', content: 'Something else', type: 'Type', source: 'Source' }
                             ]
+                        },
+                        {
+                            block: 'links',
+                            mods: { size: 'small' },
+                            content: [
+                                { elem: 'title', content: 'More CSS Goodness From...' },
+                                { elem: 'link', url: '//...', title: '@Stubbornella' },
+                                { elem: 'link', url: '//...', title: '@Snookca' },
+                                { elem: 'link', url: '//...', title: '@Necolas' },
+                            ]
                         }
                     ]
                 },
@@ -71,6 +81,19 @@
                                 },
                                 '&nbsp; &nbsp;',
                                 { elem: 'company', content: 'Whosit &amp; Whatsit' }
+                            ]
+                        },
+                        {
+                            block: 'links',
+                            content: [
+                                { elem: 'title', content: 'Latest Posts' },
+                                { elem: 'link', url: '//...', title: 'Hashed Classes in CSS', description: 'For a long time...' },
+                                { elem: 'link', url: '//...', title: 'Hashed Classes in CSS', description: 'For a long time...' },
+                                { elem: 'link', url: '//...', title: 'Hashed Classes in CSS', description: 'For a long time...' },
+                                {
+                                    elem: 'foot',
+                                    content: { block: 'link', mods: { arrow: true }, url: '//...', content: 'Visit the blog' }
+                                }
                             ]
                         }
                     ]

@@ -1,0 +1,9 @@
+.links_size_small .links__link
+{
+    padding: 5px 0;
+}
+
+.links_size_small .links__link .link
+{
+    font-size: 100%;
+}
