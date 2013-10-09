@@ -1,0 +1,9 @@
+.tiser__next-up
+{
+    position: absolute;
+    width: 210px;
+    padding: 10px;
+    bottom: 0;
+    right: 180px;
+    background-color: #fff;
+}

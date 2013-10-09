@@ -25,7 +25,8 @@
         },
         {
             block: 'tiser',
-            image: '//...',
+            // different from logo-block, cause you can provide images from special storage, not from your filesystem
+            image: '/assets/images/masthead.jpg',
             content: 'Amsterdam 9th Oct'
         },
         {

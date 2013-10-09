@@ -1,0 +1,16 @@
+block('tiser')(
+    content()(function() {
+        return [
+            // different from logo-block, cause you can provide images from special storage, not from your filesystem
+            { elem: 'image', image: this.ctx.image, text: '' },
+            {
+                elem: 'next-up',
+                content: [
+                    { elem: 'title', content: 'Next Up' },
+                    { elem: 'text', content: applyNext() },
+                    { elem: 'label', content: 'Sold Out' }
+                ]
+            }
+        ]
+    })
+)

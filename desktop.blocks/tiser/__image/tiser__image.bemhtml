@@ -1,0 +1,9 @@
+block('tiser').elem('image')(
+    tag()('img'),
+    attrs()(function() {
+        return {
+            src: this.ctx.image,
+            alt: this.ctx.text || ''
+        }
+    })
+)
