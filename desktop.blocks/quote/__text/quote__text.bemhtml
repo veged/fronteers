@@ -1,0 +1,8 @@
+block('quote').elem('text').content()(function() {
+    return [
+        { elem: 'quo', elemMods: { type: 'left' } },
+        applyNext(),
+        { elem: 'quo', elemMods: { type: 'right' } }
+    ]
+
+})

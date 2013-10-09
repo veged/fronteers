@@ -1,0 +1,1 @@
+block('quote').elem('company').tag()('span')

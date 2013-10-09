@@ -1,0 +1,9 @@
+block('quote').elem('photo')(
+    tag()('img'),
+    attrs()(function() {
+        return {
+            src: this.ctx.url,
+            alt: 'Photo'
+        }
+    })
+)

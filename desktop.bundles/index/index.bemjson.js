@@ -60,9 +60,15 @@
                         {
                             block: 'quote',
                             content: [
-                                { elem: 'photo', url: '//...' },
+                                { elem: 'photo', url: '/assets/images/naomi.jpg' },
                                 { elem: 'text', content: 'Harry\'s way...' },
-                                { elem: 'name', url: '//...', content: 'Naomi Atkinson' },
+                                {
+                                    block: 'link',
+                                    mix: { block: 'quote', elem: 'name' },
+                                    url: '//...',
+                                    content: 'Naomi Atkinson'
+                                },
+                                '&nbsp; &nbsp;',
                                 { elem: 'company', content: 'Whosit &amp; Whatsit' }
                             ]
                         }
