@@ -2,3 +2,9 @@
 {
     padding: 15px 180px;
 }
+
+/* you can use cascade if n some cases! */
+.content .link
+{
+    font-size: 80%;
+}
