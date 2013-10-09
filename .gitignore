@@ -1,4 +1,4 @@
-*.css
+desktop.blocks/base/*.css
 *.sass-cache
 libs/
 node_modules/

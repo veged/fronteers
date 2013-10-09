@@ -1,0 +1,10 @@
+block('logo')(
+    tag()('a'),
+    content()({
+        tag: 'img',
+        attrs: {
+            src: '/desktop.blocks/logo/logo.png',
+            alt: 'Logo'
+        }
+    })
+)
