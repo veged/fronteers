@@ -4,6 +4,6 @@
 # command line, simply `cd` to this directory and run `$ ./watch`.
 
 # No minification
-sass --watch style.scss:style.css --style expanded
+sass --watch base.scss:base.css --style expanded
 
 exit 0
