@@ -33,13 +33,39 @@
             block: 'content',
             content: [
                 {
-                    elem: 'left',
+                    elem: 'sidebar',
                     content: [
+                        {
+                            block: 'resources',
+                            content: [
+                                { elem: 'title', content: 'CSS Resources' },
+                                { elem: 'resource', content: '', type: 'Book', source: 'Sm Shop' },
+                                { elem: 'resource', content: '', type: 'Type', source: 'Source' },
+                                { elem: 'resource', content: '', type: 'Type', source: 'Source' }
+                            ]
+                        }
                     ]
                 },
                 {
-                    elem: 'right',
+                    elem: 'main',
                     content: [
+                        { elem: 'header', content: 'They say bla-bla-bla.. websites.' },
+                        { elem: 'para', content: 'In this workshop...' },
+                        {
+                            block: 'link',
+                            mods: { arrow: true },
+                            url: '//...',
+                            content: 'More on the workshop'
+                        },
+                        {
+                            block: 'quote',
+                            content: [
+                                { elem: 'photo', url: '//...' },
+                                { elem: 'text', content: 'Harry\'s way...' },
+                                { elem: 'name', url: '//...', content: 'Naomi Atkinson' },
+                                { elem: 'company', content: 'Whosit &amp; Whatsit' }
+                            ]
+                        }
                     ]
                 }
             ]
