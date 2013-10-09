@@ -117,7 +117,7 @@
                         { elem: 'left', content: '&copy; CSSWizardy' },
                         {
                             elem: 'right', content: [
-                                'Build with', { tag: 'a', attrs: { href: '...' } }, ' and so on...'
+                                'Build with ', { block: 'link', url: '//..', content: 'inuit.css' }, ' and so on...'
                             ]
                         }
                     ]
