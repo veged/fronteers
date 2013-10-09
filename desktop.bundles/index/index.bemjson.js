@@ -83,7 +83,7 @@
                 {
                     block: 'promo',
                     content: [
-                        { elem: 'logo' },
+                        { elem: 'image', url: '/assets/images/inuit-logo.png' },
                         { elem: 'title', content: 'We\'re proud to be sponsored by intuit.css' },
                         { elem: 'text', content: 'Intuit.css is a powerful, scalable, Sass-based, BEM, OOCSS, framework.' }
                     ]
