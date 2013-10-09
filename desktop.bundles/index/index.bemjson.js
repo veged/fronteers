@@ -15,10 +15,10 @@
                 {
                     block: 'menu',
                     content: [
-                        { elem: 'item', url: '', content: 'The Workshop' },
-                        { elem: 'item', url: '', content: '2013 Scgedule' },
-                        { elem: 'item', url: '', content: 'About CSSWizardy' },
-                        { elem: 'item', url: '', content: 'Contact' },
+                        { elem: 'item', url: '/workshop', content: 'The Workshop' },
+                        { elem: 'item', url: '/schedule', content: '2013 Schedule' },
+                        { elem: 'item', url: '/about', content: 'About CSSWizardy' },
+                        { elem: 'item', url: '/contact', content: 'Contact' },
                     ]
                 },
             ]

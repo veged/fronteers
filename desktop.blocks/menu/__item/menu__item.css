@@ -1,0 +1,8 @@
+.menu__item
+{
+    text-transform: uppercase;
+    color: black;
+    font-size: 80%;
+    float: left;
+    padding: 5px 15px;
+}
